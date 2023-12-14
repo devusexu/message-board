@@ -1,6 +1,18 @@
 # message-board
 a message board without using framework
-
+## goal
+to build a message board where authorized users can post, view, edit, delete messages
+## tasks
+1. unauthorized users can see nothing
+2. authorized users can create, view, edit, delete messages, where edit/delete can only be done by the message's author
+3. No separate message page. Edit and delete should happen right on the board so the author can see the context when editing/deleting message. In this case, it should look like there is only one single page (besides register/login page)
+## timeline
+Phase 1 (3 days): CRUD
+Phase 2 (2 days): authentication
+## future works
+1. messages update in real-time(with websocket) so it feels like a chat-room
+2. users can see who is typing
+3. users can create other named boards
 ## concepts to practice
 - MVC
 - session authentication 
@@ -8,20 +20,6 @@ a message board without using framework
 - OOP
 - git, especially conventional commit
 - .etc
-
-## project goal
-To build a message board where authorized users can discuss in real-time
-
-1. unauthorized users cannot see anything 
-2. authorized users can create, edit, delete their message, and see others' messages
-3. There should be no single message page, like message?id=5, which means the edit and delete page should happen in the same page as the whole board
-4. 
-## project roadmap
-
-## anticipated learnings
-- question driven development
-- gaining individual experience besides from simply copying and pasting from tutorials
-- basic understanding of how everything works without framework
 
 
 
